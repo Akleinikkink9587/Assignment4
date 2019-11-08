@@ -57,7 +57,14 @@ function openNetlifySettingSection(section) {
 }
 
 function openNetlifyPortfolio(section) {
-    var basePortfolioUrl = "https://" + userNameLower + ".netlify.com";
+    var baseNetlifyPortfolioUrl = "https://" + userNameLower + ".netlify.com";
 
-    openUrl(basePortfolioUrl + section);
+    openUrl(baseNetlifyPortfolioUrl + section);
+}
+
+
+function openPortfolio() {
+    var basePortfolioUrl = "https://" + userName + ".github.io";
+
+    openUrl(basePortfolioUrl);
 }
