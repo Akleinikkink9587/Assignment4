@@ -21,30 +21,31 @@
         </header>
         <main>
             <h2>How to create a portfolio like mine</h2>
-            <p>1. Login to <a href="#" onclick="openGitHub('/login')">GitHub.com</a>.</p>
+            <p>1. Login to <a href="javascript:void(0);" onclick="openGitHub('/login')">GitHub.com</a>.</p>
             <p>2. Enter your GitHub username: <input type="text" id="userName" placeholder="YourUsername" onkeyup="userNameChange()"></p>
             <p>3. Go to <a href="javascript:void(0);" onclick="openGitHub('/new/import')">https://github.com/new/import</a>.</p>
-            <p>4. For the repository url enter: <a>https://github.com/Akleinikkink9587/Akleinikkink9587.github.io.git</a></p>
-            <p>5. Name the repository "<span class="italic userName">YourUsername</span>.github.io".</p>
+            <p>4. Repository url: <a href="javascript:void(0);">https://github.com/Akleinikkink9587/Akleinikkink9587.github.io.git</a></p>
+            <p>5. Repository name: "<span class="italic userName">YourUsername</span>.github.io".</p>
             <p>6. Click "Begin Import" and then wait for it to complete.</p>
             <p>7. Edit <a href="javascript:void(0);" onclick="openFile('/_data/authors.yml')">_data/authors.yml</a>.</p>
             <p>8. Edit <a href="javascript:void(0);" onclick="openFile('/_includes/footer.html')">_includes/footer.html</a>.</p>
-            <p>9. Edit <a href="javascript:void(0);" onclick="openFile('/_config.yml')">_config.yml</a>.</p>
-            <p>10. Go to <a href="javascript:void(0);" onclick="openNetlify()">Netlify.com</a> and log in with GitHub.</p>
-            <p>11. Click "New site from Git" and then select GitHub.</p>
-            <p>12. Select the "<span class="italic userName">YourUsername</span>.github.io" repository and then hit "Deploy Site".</p>
-            <p>13. Go to Settings -> General -> Site Details and change the site name to "<span class="italic userNameLower">YourUsername</span>".</p>
-            <p>14. Go to <a href="javascript:void(0);" onclick="openNetlifySettingSection('/identity')">Identity</a> and click "Enable Identity".</p>
-            <p>15. Go to <a href="javascript:void(0);" onclick="openNetlifySettingSection('/settings/identity#registration')">Settings -> Identity -> Registration</a> and click "Edit settings".</p>
-            <p>16. Select "Invite only" and then click save.</p>
-            <p>17. Go to <a href="javascript:void(0);" onclick="openNetlifySettingSection('/settings/identity#services')">Settings -> Identity -> Services</a> and click "Enable Git Gateway".</p>
-            <p>18. Go to <a href="javascript:void(0);" onclick="openNetlifySettingSection('/identity')">Identity</a>.</p>
-            <p>19. Click "Invite users" and then check your email for a site invitation.</p>
-            <p>20. Click "Accept the invite" in the email and then enter a password.</p>
-            <p>21. Go to the <a href="javascript:void(0);" onclick="openNetlifyPortfolio('/admin')">admin page (/admin)</a>.</p>
-            <p>22. Login with your email and the password you just created.</p>
-            <p>23. Make all of your desired changes using the CMS (Content Management System).</p>
-            <p>24. View your site at <a href="javascript:void(0);" onclick="openNetlifyPortfolio('')"> Netlify</a> or <a href="javascript:void(0);" onclick="openPortfolio()">GitHub pages (span class="italic userName">YourUsername</span>.github.io)</a>.</p>
+            <p>9. Edit <a href="javascript:void(0);" onclick="openFile('/_config.yml')">_config.yml</a>. (title, email, description, url)</p>
+            <p>9. Edit <a href="javascript:void(0);" onclick="openFile('/admin/config.yml')">admin/config.yml</a>. (collections -> feilds -> fields -> options</p>
+            <p>11. Go to <a href="javascript:void(0);" onclick="openNetlify()">Netlify.com</a> and log in with GitHub.</p>
+            <p>12. Click "New site from Git" and then select GitHub.</p>
+            <p>13. Select the "<span class="italic userName">YourUsername</span>.github.io" repository and then hit "Deploy Site".</p>
+            <p>14. Go to Settings -> General -> Site Details and change the site name to "<span class="italic userNameLower">YourUsername</span>".</p>
+            <p>15. Go to <a href="javascript:void(0);" onclick="openNetlifySettingSection('/identity')">Identity</a> and click "Enable Identity".</p>
+            <p>16. Go to <a href="javascript:void(0);" onclick="openNetlifySettingSection('/settings/identity#registration')">Settings -> Identity -> Registration</a> and click "Edit settings".</p>
+            <p>17. Select "Invite only" and then click save.</p>
+            <p>18. Go to <a href="javascript:void(0);" onclick="openNetlifySettingSection('/settings/identity#services')">Settings -> Identity -> Services</a> and click "Enable Git Gateway".</p>
+            <p>19. Go to <a href="javascript:void(0);" onclick="openNetlifySettingSection('/identity')">Identity</a>.</p>
+            <p>20. Click "Invite users" and then check your email for a site invitation.</p>
+            <p>21. Click "Accept the invite" in the email and then enter a password.</p>
+            <p>22. Go to the <a href="javascript:void(0);" onclick="openNetlifyPortfolio('/admin')">admin page (/admin)</a>.</p>
+            <p>23. Login with your email and the password you just created.</p>
+            <p>24. Make all of your desired changes using the CMS (Content Management System).</p>
+            <p>25. View your site at <a href="javascript:void(0);" onclick="openNetlifyPortfolio('')"> Netlify</a> or <a href="javascript:void(0);" onclick="openPortfolio()">GitHub pages (span class="italic userName">YourUsername</span>.github.io)</a>.</p>
             <p>Note: The CSS can be changed on GitHub at <a href="javascript:void(0);" onclick="openFolder('/_sass/partials')">_sass/partials.</a></p>
             <section>
                 <h3>Video Example</h3>
