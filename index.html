@@ -22,7 +22,7 @@
         <main>
             <h2>How to create a portfolio like mine</h2>
             <p>1. Login to <a href="javascript:void(0);" onclick="openGitHub('/login')">GitHub.com</a>.</p>
-            <p>2. Enter your GitHub username: <input type="text" id="userName" placeholder="YourUsername" onkeyup="userNameChange()"></p>
+            <p>2. Enter your GitHub username: <input type="text" id="userName" placeholder="YourUsername" onkeyup="userNameChange()" aria-label="GitHub username"></p>
             <p>3. Go to <a href="javascript:void(0);" onclick="openGitHub('/new/import')">https://github.com/new/import</a>.</p>
             <p>4. Repository url: <a href="javascript:void(0);">https://github.com/Akleinikkink9587/Akleinikkink9587.github.io.git</a></p>
             <p>5. Repository name: "<span class="italic userName">YourUsername</span>.github.io".</p>
@@ -47,10 +47,14 @@
             <p>24. Make all of your desired changes using the CMS (Content Management System).</p>
             <p>25. View your site: <a href="javascript:void(0);" onclick="openPortfolio()"><span class="italic userName">YourUsername</span>.github.io</a>.</p>
             <p>Note: The CSS can be changed on GitHub at <a href="javascript:void(0);" onclick="openFolder('/_sass/partials')">_sass/partials.</a></p>
-            <section>
-                <h3>Video Example</h3>
-            </section>
         </main>
+        <div class="video">
+            <h3>Video Example</h3>
+            <video controls="controls">
+                    <source src="/Assignment4/video/Assignment4.mp4"  type="video/mp4" />
+                    <track kind="subtitles" src="/Assignment4/video/subtitles_en.vtt" srclang="en" default/>
+            </video>
+        </div>
         <footer> <small>Adrian Kleinikkink's Portfolio</small></footer>
     </body>
 </html>

@@ -1,0 +1,79 @@
+WEBVTT
+
+00:00.000 --> 00:02.000
+How to create a portfolio like mine
+
+00:02.000 --> 00:18.000
+Step 1. Login to GitHub.com
+
+00:18.000 --> 00:28.000
+Step 2. Enter your GitHub username
+
+00:28.000 --> 00:34.000
+Step 3. Go to GitHub.com/new/import
+
+00:34.000 --> 00:43.000
+Step 4. Enter the repository url
+
+00:43.000 --> 00:51.000
+Step 5. Enter the repository name
+
+00:51.000 --> 01:02.000
+Step 6. Click "Begin Import" and then wait for it to complete
+
+01:02.000 --> 01:18.000
+Step 7. Edit _data/authors.yml
+
+01:18.000 --> 01:31.000
+Step 8. Edit _includes/footer.html
+
+01:31.000 --> 01:47.000
+Step 9. Edit _config.yml
+
+01:47.000 --> 02:02.000
+Step 10. Edit admin/config.yml
+
+02:02.000 --> 02:15.000
+Step 11. Go to Netlify.com and log in with GitHub.
+
+02:15.000 --> 02:26.000
+Step 12. Click "New site from Git" and then select GitHub.
+
+02:26.000 --> 02:39.000
+Step 13. Select the "YourUsername.github.io" repository and then hit "Deploy Site".
+
+02:39.000 --> 03:04.000
+Step 14. Go to Settings -> General -> Site Details and change the site name to "YourUsername".
+
+03:04.000 --> 03:20.000
+Step 15. Go to Identity and click "Enable Identity".
+
+03:20.000 --> 03:35.000
+Step 16. Go to Settings -> Identity -> Registration and click "Edit settings".
+
+03:35.000 --> 03:44.000
+Step 17. Select "Invite only" and then click save.
+
+03:44.000 --> 04:03.000
+Step 18. Go to Settings -> Identity -> Services and click "Enable Git Gateway".
+
+04:03.000 --> 04:13.000
+Step 19. Go to Identity.
+
+04:13.000 --> 04:41.000
+Step 20. Click "Invite users", enter your email, click "Send" and then check your email for a site invitation.
+
+04:41.000 --> 04:46.000
+Step 21. Click "Accept the invite" in the email and then enter a password.
+
+04:46.000 --> 04:54.000
+Step 22. Go to the admin page (/admin).
+
+04:54.000 --> 05:13.000
+Step 23. Login with your email and the password you just created.
+
+05:13.000 --> 05:22.000 
+Step 24. Make all of your desired changes using the CMS (Content Management System).
+
+05:22.000 --> 05:32.000 
+Step 25. View your site: YourUsername.github.io.

@@ -623,7 +623,7 @@ main {
 	grid-column: main;
 	display: grid;
 	padding-top: 8rem;
-	padding-bottom: 8rem
+	padding-bottom: 4rem
 }
 
 @media screen and (min-width: 992px) {
@@ -707,3 +707,14 @@ footer>small {
 .italic {
     font-style: italic;
 }
+
+.video {
+    width: 100% !important;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+
+video {
+    width: 100% !important;
+    height: auto !important;
+  }
