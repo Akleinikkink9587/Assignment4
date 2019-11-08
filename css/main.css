@@ -46,7 +46,9 @@ template {
 }
 
 a {
-	background-color: transparent
+	background-color: transparent;
+	overflow-wrap: break-word;
+  	word-wrap: break-word
 }
 
 a:active,
